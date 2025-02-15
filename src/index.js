@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {num, arr, obj as object} from "./App";
+import greeting from "./myapp";
 
 
-console.log(a);
+console.log(num);
 console.log(arr);
 console.log(object);
+greeting();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
