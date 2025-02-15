@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {a, arr, obj} from "./App";
+import {num, arr, obj as object} from "./App";
 
 
 console.log(a);
 console.log(arr);
-console.log(obj);
+console.log(object);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

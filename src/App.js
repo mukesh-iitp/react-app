@@ -27,7 +27,7 @@ function App() {
 }
 
 //named export
-export {a, arr, obj};
+export {a as num, arr, obj};
 
 //default export
 export default App;
